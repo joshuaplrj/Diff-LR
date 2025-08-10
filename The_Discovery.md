@@ -84,10 +84,7 @@ kind of works like linear search. 🔍
 
 
 ### **So with this done I asked Grok to write the step by step algorithm for this **dynamic learning rate** and the following is what it gave me.** 🧑‍💻
-### Step-by-Step Algorithm for Your Dynamic Learning Rate Idea 🛠️
-Now, building on your overall idea from our conversation (using overshooting/undershooting detection for dynamic adjustments) and incorporating the binary search repurposing you described, 
-here's a simple, step-by-step algorithm in plain language. This is a high-level pseudocode-like outline you could implement in Python with a framework like PyTorch or TensorFlow. It focuses 
-on a pre-training binary search to find an initial optimal learning rate, then applies dynamic adjustments during full training based on overshooting/undershooting signals. 🧩
+### Step-by-Step Algorithm for Dynamic Learning Rate Idea 🛠️
 
 #### Phase 1: Binary Search to Find Initial Learning Rate 🔍
 This phase repurposes binary search to narrow down a good starting learning rate by testing for overshooting (loss diverges or oscillates) and undershooting (loss decreases too slowly or 
