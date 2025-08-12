@@ -99,6 +99,8 @@ Below are some of the plots from the simulation that illustrate these findings:
   ![MNIST Small-CNN Plot](diff_lr_sim_plots/MNIST_Small-CNN_epochs_vs_params.png)
 
 The full simulation results can be found in `diff_lr_sim_results.csv`.
+To reproduce the results of the program you can download it and run the same after changing the save location of the **csv file** and the **plots zip file** at line number 190 and 164 respectively.
+
 
 -----
 
