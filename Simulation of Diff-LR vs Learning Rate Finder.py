@@ -161,7 +161,7 @@ pivot = pivot.reset_index()
 display_dataframe_to_user("Diff-LR_vs_LRF_sim_results", df)
 
 # Save figures: epochs vs param bucket plot per dataset+model family
-plots_dir = "/mnt/data/sim_plots"
+plots_dir = "/Your_directory/data/sim_plots" #If you intend on reproducing this code make sure that you update this to the directory wherein you want to save the plots_dir.
 os.makedirs(plots_dir, exist_ok=True)
 
 for dataset in datasets:
@@ -187,7 +187,7 @@ for dataset in datasets:
         plt.close()
 
 # Save CSV of results
-csv_path = "/mnt/data/diff_lr_sim_results.csv"
+csv_path = "/Your_directory/data/diff_lr_sim_results.csv" #If you intend on reproducing this code make sure that you update this to the directory wherein you want to save this.
 df.to_csv(csv_path, index=False)
 
 # Provide a small summary printed out for quick glance
